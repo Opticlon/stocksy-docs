@@ -75,5 +75,9 @@
     "playground": {
       "proxy": false
     }
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
   }
 }
