@@ -65,5 +65,10 @@
   },
   "footer": {
     "socials": {}
+  },
+  "api": {
+    "playground": {
+      "proxy": false
+    }
   }
 }
