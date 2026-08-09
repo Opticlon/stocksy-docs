@@ -7,7 +7,10 @@
     "light": "#22C55E",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": {
+    "light": "/images/stocksylogo.png",
+    "dark": "/images/stocksylogo.png"
+  },
   "navigation": {
     "groups": [
       {
