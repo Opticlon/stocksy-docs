@@ -51,6 +51,12 @@
         "pages": [
           "settings/settings"
         ]
+      },
+      {
+        "group": "Updates",
+        "pages": [
+          "changelog"
+        ]
       }
     ]
   },
