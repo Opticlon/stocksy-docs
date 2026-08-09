@@ -1,0 +1,17 @@
+/* Logo size — matches DevTools width/height */
+nav-logo img,
+img.nav-logo {
+  width: 200px !important;
+  height: 45px !important;
+  max-width: none !important;
+  object-fit: contain !important;
+}
+
+/* Hide AI assistant and search */
+#assistant-entry,
+#assistant-entry-mobile,
+#chat-assistant-sheet,
+#page-context-menu,
+#page-context-menu-button {
+  display: none !important;
+}
