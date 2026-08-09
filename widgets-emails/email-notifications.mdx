@@ -1,0 +1,150 @@
+---
+title: "Email notifications"
+description: "Customize Stocksy email delivery, templates, and styles for back in stock, price drop, and coming soon alerts."
+---
+
+Use **Email Notifications** to control how your store sends alert emails. Open it from **Notifications > Email Notifications > Customize**.
+
+The page has two main tabs:
+
+1. **General** — delivery settings, template content, and style for each alert type
+2. **Advanced** — sending domain options
+
+On **General**, switch between these template types:
+
+- **Back in stock**
+- **Price drop alert**
+- **Coming soon**
+
+Settings appear on the left. A live **Desktop preview** updates on the right as you edit.
+
+<Note>
+  Logo, brand name, accent color, social links, and sender details are shared across all templates. Edit them in [Settings — Branding](/settings/settings#branding).
+</Note>
+
+## General — delivery settings
+
+These delivery controls apply to email sending:
+
+| Setting | What it does |
+| --- | --- |
+| **Enable Email Notifications** | Turn email alerts on or off |
+| **Batch Size** | How many emails to process per batch (for example, `20`) |
+| **Retry Attempts** | How many times Stocksy retries a failed send (for example, `3`) |
+
+### Queue status
+
+The queue panel shows current email job counts:
+
+- **Pending**
+- **Processing**
+- **Failed**
+
+### Send a test email
+
+1. Enter a recipient address in **Recipient Test Email**.
+2. Click **Send Test Email**.
+3. Check that the preview matches the email you receive.
+4. Click **Save** when you are done editing.
+
+## General — templates for all 3 widgets
+
+Select **Back in stock**, **Price drop alert**, or **Coming soon** to edit that template. Each type has its own content and style, but the same fields.
+
+### Content
+
+| Field | What it controls |
+| --- | --- |
+| **Subject** | Email subject line |
+| **Title** | Main heading inside the email |
+| **Description** | Body text under the title |
+| **Button text** | Call-to-action label (for example, `Buy now`) |
+| **Footer** | Small text at the bottom of the email |
+
+### Personalization variables
+
+Use these variables in subject, title, or description:
+
+| Variable | Inserts |
+| --- | --- |
+| `{{ product_name }}` | Product name |
+| `{{ customer_name }}` | Customer name |
+
+Example subject:
+
+```text
+Great news — {{ product_name }} is back in stock!
+```
+
+### Style
+
+Customize how the email looks for the selected widget:
+
+| Setting | What it controls |
+| --- | --- |
+| **Primary color** | Main brand/accent color (logo and CTA button) |
+| **Secondary color** | Secondary text or accent color |
+| **Button radius** | Roundness of the Buy now button |
+| **Font family** | Email font (for example, System UI) |
+| **Padding** | Inner spacing of the email content |
+| **Border radius** | Roundness of the email card/container |
+
+The preview updates as you change colors, fonts, and spacing so you can match your store brand before saving.
+
+### Preview
+
+The preview shows:
+
+- Store name and subject line
+- Logo
+- Title and personalized description
+- Product image and product name
+- CTA button
+- Footer text
+
+Edit each of the three widgets separately so restock, price-drop, and coming-soon emails can use different copy and styles.
+
+## Advanced
+
+Open the **Advanced** tab for sending domain settings.
+
+### Shared sending domain
+
+By default, Stocksy sends from a shared domain (for example, `noreply@opticlon.com`).
+
+- Status shows **Verified** when the shared domain is ready
+- The active From address for your shop is listed under this card
+
+### Premium — custom domain
+
+Custom branded sending domains are available on the **Pro** plan.
+
+| Item | Details |
+| --- | --- |
+| **Custom Sending Domain** | Enter a From email on your domain (for example, `notifications@yourdomain.com`) |
+| **Verification** | Stocksy verifies the domain in ZeptoMail for your shop only |
+| **Add domain** | Enabled after you upgrade and enter a valid domain |
+
+If you are not on Pro, you see an **Upgrade to Pro Plan** message with **View plans**.
+
+<Note>
+  Extra custom support options in Advanced are planned for the future. They are not available yet.
+</Note>
+
+## Save your changes
+
+After you update delivery settings, content, or style for any widget:
+
+1. Review the live preview.
+2. Optionally send a test email.
+3. Click **Save**.
+
+Then trigger a test notification from a real subscription to confirm delivery.
+
+## Related pages
+
+- [Notifications](/widgets-emails/notifications)
+- [Pricing & plans](/plans-billing/pricing-plans)
+- [Back in stock widget](/widgets-emails/back-in-stock)
+- [Price drop alert widget](/widgets-emails/price-drop-alert)
+- [Coming soon waitlist widget](/widgets-emails/coming-soon-waitlist)

@@ -19,7 +19,7 @@ Open `http://localhost:3000`.
 | Widgets & Emails | `widgets-emails/` |
 | Products & Subscribers | `products-subscribers/` |
 | Plans & Billing | `plans-billing/` |
-| Troubleshooting & FAQs | `troubleshooting-faqs/` |
+| Settings | `settings/` |
 
 Site config lives in `docs.json`. Screenshots live in `images/`.
 

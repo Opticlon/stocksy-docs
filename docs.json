@@ -21,15 +21,20 @@
       {
         "group": "Widgets & Emails",
         "pages": [
-          "widgets-emails/customize-widgets",
-          "widgets-emails/customize-emails"
+          "widgets-emails/widgets",
+          "widgets-emails/back-in-stock",
+          "widgets-emails/price-drop-alert",
+          "widgets-emails/coming-soon-waitlist",
+          "widgets-emails/notifications",
+          "widgets-emails/email-notifications"
         ]
       },
       {
         "group": "Products & Subscribers",
         "pages": [
           "products-subscribers/products",
-          "products-subscribers/subscribers"
+          "products-subscribers/subscribers",
+          "products-subscribers/reports"
         ]
       },
       {
@@ -39,9 +44,9 @@
         ]
       },
       {
-        "group": "Troubleshooting & FAQs",
+        "group": "Settings",
         "pages": [
-          "troubleshooting-faqs/frequently-asked-questions"
+          "settings/settings"
         ]
       }
     ]

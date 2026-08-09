@@ -1,0 +1,126 @@
+---
+title: "Settings"
+description: "Manage Stocksy store preferences — General, Branding, Preferences, Data, and About."
+---
+
+The **Settings** page is where you manage store preferences and global app settings. Open it from the Stocksy app sidebar.
+
+Settings has five tabs:
+
+1. **General**
+2. **Branding**
+3. **Preferences**
+4. **Data**
+5. **About**
+
+## General
+
+Use **General** for store identity and display defaults.
+
+| Field | What it shows or controls |
+| --- | --- |
+| **Store Name** | Your Shopify store name (read-only) |
+| **Shop Domain** | Your `.myshopify.com` domain (read-only) |
+| **Current Plan** | Active Stocksy plan (read-only) |
+| **Timezone** | Timezone used for dates and schedules |
+| **Language** | App language (for example, English) |
+| **Date Format** | How dates are displayed (for example, MM/DD/YYYY) |
+| **Currency** | Store currency (read-only) |
+
+Click **Save** after you change timezone, language, or date format.
+
+## Branding
+
+Use **Branding** for store branding that applies to all email templates and notification channels. Settings are on the left. A live desktop email preview is on the right.
+
+| Field | What it controls |
+| --- | --- |
+| **Brand Name** | Sender name shown in customer emails |
+| **Logo** | Store logo upload (PNG or SVG, max 500 KB) |
+| **Accent Color** | Default brand color when a template has no custom primary color |
+| **Sender Email** | From address used for notification emails |
+| **Reply-To Email** | Address used when customers reply |
+| **Company Website** | Your store or company website URL |
+
+Upload a logo with **Add files**. Accepted formats are `.png` and `.svg`.
+
+The preview shows how brand name, logo, accent color, and email content appear to customers. For per-template colors and copy, see [Email notifications](/widgets-emails/email-notifications).
+
+Click **Save** when you finish branding updates.
+
+## Preferences
+
+Use **Preferences** for onboarding, retention, logging, and default delivery behavior.
+
+| Setting | What it does |
+| --- | --- |
+| **Hide Setup Guide** | Dismiss the onboarding checklist on the Home page |
+| **Notification Retention** | How long notification reports are kept (for example, 90 Days) |
+| **Auto Delete Failed Notifications** | Delete FAILED notification reports older than the retention period on each cron run |
+| **Auto Delete Sent Notifications** | Delete SENT notification reports older than the retention period on each cron run |
+| **Enable Debug Logs** | When on, the notification processor logs each send in server logs |
+| **Default Batch Size** | Emails processed per cron run (also used in Notifications → Email → Delivery) |
+| **Retry Attempts** | Max send attempts before cancelling (synced with Email Delivery settings) |
+
+Click **Save** after changing preferences.
+
+## Data
+
+Use **Data** to export records, clean old logs, or reset settings.
+
+### Export and cleanup
+
+| Action | What it does |
+| --- | --- |
+| **Export subscribers** | Download a CSV of all subscriber records across every waitlist type |
+| **Export reports** | Download notification delivery history and status logs |
+| **Delete old reports** | Remove notification logs older than your retention preference |
+| **Reset widget settings** | Restore all storefront widget appearance settings to defaults |
+
+### Danger Zone
+
+These actions are permanent. Use them only when you are sure.
+
+| Action | What it does |
+| --- | --- |
+| **Delete All Subscribers** | Permanently remove every subscriber from all waitlists |
+| **Delete All Reports** | Permanently remove the entire notification history |
+| **Reset All Settings** | Restore every app setting to factory defaults |
+
+<Warning>
+  Danger Zone actions cannot be undone. Export subscribers or reports first if you need a backup.
+</Warning>
+
+## About
+
+Use **About** to check app health and open support resources.
+
+### Application information
+
+| Field | Example |
+| --- | --- |
+| **Application** | Stocksy |
+| **Current Version** | 1.0.0 |
+| **Database Status** | Connected |
+| **Queue Status** | Idle |
+| **Email Service** | Connected |
+| **ZeptoMail Domain** | Verified |
+
+### Support links
+
+From the Support card you can open:
+
+- **Documentation**
+- **Privacy Policy**
+- **Terms**
+- **Contact Support**
+
+For help, email [support@opticlon.com](mailto:support@opticlon.com).
+
+## Related pages
+
+- [Email notifications](/widgets-emails/email-notifications)
+- [Pricing & plans](/plans-billing/pricing-plans)
+- [Subscribers](/products-subscribers/subscribers)
+- [Reports](/products-subscribers/reports)
+- [Dashboard](/get-started/dashboard)

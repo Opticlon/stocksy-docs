@@ -15,6 +15,12 @@
 - Use **subscriber** for a customer waiting for a stock/price/coming-soon alert
 - Use **notification** for emails sent when a product is back in stock or a price drops
 - Use **widget** for the storefront signup form
+- Widget types: **Back in stock**, **Price drop alert**, **Coming soon waitlist**
+- **Coming soon waitlist** is paid plans only — never document it as available on the free plan
+- Coming soon requires product selection; show widget when inventory is 0; hide widget on storefront when in stock — do not describe this as "automatic"
+- Notifications currently support **Email** only; email templates cover all 3 widgets with content + style (colors, font, radius, padding)
+- Plans: Free $0 (100), Starter $9.99 (1,000), Growth $19.99 (3,000), Pro $49.99 (10,000); wallet $1/100 emails after quota (not on Free)
+- Custom branded email domain is a Pro feature marked Coming soon in the app; Advanced custom support is future-only
 - Use **Notification Wallet** for prepaid email credits after the monthly quota
 - Support email: `support@opticlon.com`
 
@@ -25,8 +31,8 @@
 - Use sentence case for headings
 - Bold for UI elements: Click **Settings**
 - Code formatting for file names, commands, paths, and code references
-- Match the Iconic docs tone: clear product overview, then section-by-section UI explanations with screenshots
-- Include app screenshots from `/images` when documenting a screen
+- Match the Iconic docs tone: clear product overview, then section-by-section UI explanations
+- Do not add screenshots or images in docs pages unless the user explicitly asks
 
 ## Content boundaries
 
