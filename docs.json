@@ -52,8 +52,8 @@
     ]
   },
   "logo": {
-    "light": "/images/stocksylogo.png",
-    "dark": "/images/stocksylogo.png"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
