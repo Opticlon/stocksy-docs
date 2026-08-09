@@ -1,0 +1,159 @@
+---
+title: "Dashboard"
+description: "Understand the Stocksy Home dashboard — setup status, overview metrics, charts, top products, recent activity, quick actions, system health, and plan usage."
+---
+
+The **Home** dashboard is the first screen you see after opening Stocksy. It shows setup progress, performance metrics, recent activity, and shortcuts to common tasks.
+
+<img
+  src="/images/dashboard/overview.png"
+  alt="Stocksy dashboard showing App Embed status, Setup Guide, overview metrics, and charts"
+/>
+
+## App Embed status
+
+At the top of the page, Stocksy shows whether the theme App Embed is connected.
+
+- **Stocksy App Embed is active** — the storefront widget can collect subscribers.
+- If the embed is inactive, enable it in your theme editor. See the [Quick start guide](/get-started/quick-start-guide).
+
+## Setup Guide
+
+The Setup Guide walks new stores through first-time setup:
+
+1. **Enable App Embed**
+2. **Configure Widget**
+3. **Customize Email**
+4. **Receive First Subscriber**
+5. **Send First Notification**
+
+When every step is complete, the card shows a **Done** badge. You can collapse or dismiss the guide with the controls in the top-right corner.
+
+## Overview metrics
+
+The **Overview** section summarizes store performance with metric cards:
+
+| Metric | What it means |
+| --- | --- |
+| **Total Subscribers** | All customers who have subscribed for alerts |
+| **Waiting Subscribers** | Subscribers still waiting to be notified |
+| **Notifications Sent** | Total alert emails Stocksy has sent |
+| **Tracked Products** | Products with subscriber or notification activity |
+| **Current Plan** | Your active billing plan (for example, Starter) |
+| **Monthly Email Usage** | Emails used this billing period vs your plan quota |
+| **Notification Wallet** | Prepaid balance for emails after your monthly quota ($1 per 100 emails) |
+| **Delivery Success Rate** | How reliably notifications are delivered (Healthy when high) |
+
+Trend percentages compare against the previous period so you can spot growth quickly.
+
+## Charts
+
+Below the overview cards, **Charts** show the last 30 days of:
+
+- **Subscribers** — new subscriber sign-ups over time
+- **Notifications Sent** — notification volume over time
+
+Use these charts to see restock seasons, campaign impact, or quiet periods.
+
+## Top Products
+
+<img
+  src="/images/dashboard/activity.png"
+  alt="Stocksy dashboard Top Products, recent subscribers, recent notifications, wallet activity, and quick actions"
+/>
+
+**Top Products** lists products with the latest subscriber sign-ups or notifications.
+
+| Column | Description |
+| --- | --- |
+| **Product** | Product image, name, and variant count |
+| **Subscribers** | Total subscribers for that product |
+| **Waiting** | Subscribers still waiting for a notification |
+| **Sent** | Notifications already sent for the product |
+| **Last Activity** | When the product last had subscriber or notification activity |
+| **Action** | Click **View** to open product details |
+
+Click **View All Products** to open the full products list.
+
+## Recent Subscribers
+
+This table shows the newest alert sign-ups:
+
+- **Customer** — subscriber name or identifier
+- **Product** — product they subscribed to
+- **Type** — alert type such as **Back in Stock**, **Price Drop Alert**, or **Coming Soon**
+- **Date** — when they subscribed
+- **Status** — for example **Notified** when an email was already sent
+
+Click **View All Subscribers** for the full subscriber list.
+
+## Recent Notifications
+
+This table shows the latest outbound alerts:
+
+- **Customer** — who received the notification
+- **Type** — alert type badge
+- **Channel** — delivery channel (for example, Email)
+- **Status** — for example **Sent**
+- **Sent Time** — exact send timestamp
+
+Click **View Reports** for deeper notification reporting.
+
+## Recent Wallet Activity
+
+This section logs Notification Wallet events, such as deposits. Amounts appear as credits (for example, `+$20.00`). Use **View plans** to review pricing and upgrade options.
+
+## Quick Actions
+
+Quick Actions give one-click access to common setup tasks:
+
+| Action | Use it to |
+| --- | --- |
+| **Customize Widgets** | Edit back-in-stock and price-drop widgets on your storefront |
+| **Customize Emails** | Update email templates and sender settings |
+| **Buy Credits** | Add wallet funds for emails after your monthly quota |
+| **Upgrade Plan** | Unlock higher email notification limits |
+
+<img
+  src="/images/dashboard/health-plan.png"
+  alt="Stocksy dashboard Quick Actions, System Health, Plan Usage, and Help and Resources"
+/>
+
+## System Health
+
+**System Health** confirms that Stocksy services are running correctly:
+
+| Check | Healthy state |
+| --- | --- |
+| **Theme Extension** | Connected |
+| **Email Service** | Connected |
+| **Scheduler** | Running |
+| **Notification Queue** | Pending count shown, status Healthy |
+| **Database** | Healthy |
+
+You also see the **Current App Version** and **Current Shopify API Version** for troubleshooting with support.
+
+## Plan Usage
+
+**Plan Usage** summarizes billing and email capacity:
+
+- **Current Plan** — plan name and monthly price, with an **Upgrade** button
+- **Monthly Email Quota** — used vs remaining emails for the period
+- **Notification Wallet** — current balance with a **Top up** button
+- **Quota refresh** — when the monthly quota renews
+
+Wallet top-ups do not expire. After you use your monthly quota, Stocksy can continue sending from the wallet at **$1 per 100 emails**.
+
+## Help and Resources
+
+At the bottom of the dashboard you can:
+
+- Email support at [support@opticlon.com](mailto:support@opticlon.com)
+- Open **Documentation**
+- **Get Support**
+- View the **Roadmap**
+- **Suggest Ideas**
+
+<Tip>
+  Start here when something looks off: check **App Embed** status, then **System Health**, then **Plan Usage** (quota or wallet balance).
+</Tip>
