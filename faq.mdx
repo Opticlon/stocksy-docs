@@ -1,0 +1,214 @@
+---
+title: "Frequently asked questions"
+description: "Answers to common questions about Stocksy setup, widgets, emails, subscribers, plans, and settings."
+sidebarTitle: "FAQ"
+---
+
+Find answers to the most common questions about Stocksy: Back in Stock. If you still need help, email [support@opticlon.com](mailto:support@opticlon.com).
+
+## Getting started
+
+<AccordionGroup>
+  <Accordion title="What is Stocksy?">
+    Stocksy is a Shopify app that collects waitlist subscribers and emails them when a product is back in stock, a price drops, or a coming-soon product launches. You manage everything from the Stocksy app in Shopify admin. No coding is required.
+
+    See [What is Stocksy?](/get-started/introduction).
+  </Accordion>
+
+  <Accordion title="How do I install and set up Stocksy?">
+    1. Install **Stocksy: Back in Stock** from the Shopify App Store.
+    2. Enable the **App Embed** in your theme editor.
+    3. Configure a widget and customize email templates.
+    4. Submit a test subscription, then send a test notification.
+
+    Follow the full [Quick start guide](/get-started/quick-start-guide).
+  </Accordion>
+
+  <Accordion title="Why is the widget not showing on my storefront?">
+    Check these in order:
+
+    1. The Home dashboard shows **Stocksy App Embed is active**.
+    2. The widget status is **On** on the [Widgets](/widgets-emails/widgets) page.
+    3. You clicked **Add to theme** and saved in the theme editor.
+    4. For Back in stock, the product is out of stock.
+    5. For Coming soon, the product is on the Coming soon products list and inventory is **0**.
+
+    If App Embed is off, shoppers cannot subscribe even if widgets and emails are configured.
+  </Accordion>
+
+  <Accordion title="Does Stocksy work with my Shopify theme?">
+    Stocksy uses a theme App Embed, so it works with Online Store 2.0 themes that support app embeds. After you enable the embed and add the widget to the theme, save your theme and check a product page.
+  </Accordion>
+
+  <Accordion title="Do I need to edit theme code?">
+    No. Enable the App Embed, then use **Add to theme** and **Customize** in the Stocksy app.
+  </Accordion>
+</AccordionGroup>
+
+## Widgets
+
+<AccordionGroup>
+  <Accordion title="Which widgets does Stocksy include?">
+    Stocksy has three widgets:
+
+    - **Back in stock** — restock alerts (Free and paid)
+    - **Price drop alert** — price-drop alerts (Free and paid)
+    - **Coming soon waitlist** — launch waitlists (**paid plans only**)
+
+    See [Widgets](/widgets-emails/widgets).
+  </Accordion>
+
+  <Accordion title="Can I customize the widget look and form fields?">
+    Yes. Click **Customize** on a widget to edit:
+
+    - Button text and style (colors, font size, border, padding)
+    - Form title, description, and fields (full name, email, phone)
+    - Success message content and style
+
+    Email is always required. Full name and phone can be turned on or off.
+  </Accordion>
+
+  <Accordion title="What is Coming soon waitlist, and is it on the free plan?">
+    Coming soon waitlist lets shoppers join a waitlist for launch products. It is **not** included on the Free plan. Upgrade to Starter, Growth, or Pro to unlock it.
+
+    See [Coming soon waitlist widget](/widgets-emails/coming-soon-waitlist) and [Pricing & plans](/plans-billing/pricing-plans).
+  </Accordion>
+
+  <Accordion title="When does the Coming soon widget show or hide?">
+    First add the product on the **Products** tab. Then:
+
+    - Inventory is **0** — the widget shows on that product page
+    - The product is **in stock** — the widget is hidden on the storefront
+
+    When stock returns, waitlist shoppers are notified and the product is removed from the Coming soon products list.
+  </Accordion>
+
+  <Accordion title="Does Coming soon appear on every out-of-stock product?">
+    No. Only products you add on the Coming soon **Products** tab can show that widget.
+  </Accordion>
+</AccordionGroup>
+
+## Emails and notifications
+
+<AccordionGroup>
+  <Accordion title="How do customers get notified?">
+    Right now Stocksy sends **email** notifications only. You can customize templates for Back in stock, Price drop alert, and Coming soon.
+
+    See [Notifications](/widgets-emails/notifications) and [Email notifications](/widgets-emails/email-notifications).
+  </Accordion>
+
+  <Accordion title="Can I change email colors, fonts, and copy?">
+    Yes. On **Email Notifications > General**, choose a template type and edit subject, title, description, button text, footer, primary/secondary color, font family, padding, and border radius. A live desktop preview updates as you edit.
+
+    Shared branding (logo, brand name, accent color, sender details) is set in [Settings — Branding](/settings/settings#branding).
+  </Accordion>
+
+  <Accordion title="What personalization variables can I use in emails?">
+    Use `{{ product_name }}` for the product name and `{{ customer_name }}` for the customer name in the subject, title, or description.
+  </Accordion>
+
+  <Accordion title="How do I send a test email?">
+    Open **Notifications > Email Notifications > Customize**, enter an address in **Recipient Test Email**, then click **Send Test Email**. Save after you finish editing.
+  </Accordion>
+
+  <Accordion title="Why did a notification fail?">
+    Open [Reports](/products-subscribers/reports) and filter by **Failed**. Check **Attempts**, then confirm:
+
+    - Email notifications are enabled
+    - You still have monthly quota or Notification Wallet balance
+    - Delivery batch size and retry attempts in Email Notifications / Settings
+
+    Failed sends retry up to the **Retry Attempts** value (for example, 3).
+  </Accordion>
+
+  <Accordion title="Can I send from my own domain?">
+    By default Stocksy sends from a shared domain (for example, `noreply@opticlon.com`). A custom branded sending domain is a **Pro** plan feature and is marked **Coming soon** in the app. Extra Advanced custom support options are not available yet.
+  </Accordion>
+</AccordionGroup>
+
+## Subscribers, products, and reports
+
+<AccordionGroup>
+  <Accordion title="Where do I see who subscribed?">
+    Use the [Subscribers](/products-subscribers/subscribers) page. Filter by **All**, **Back in Stock**, **Price Drop Alert**, or **Coming Soon**. Search by name, email, phone, or product. Export selected rows or click **Export all**.
+  </Accordion>
+
+  <Accordion title="What does a tracked product mean?">
+    A tracked product has subscriber or notification activity. The [Products](/products-subscribers/products) page lists them with subscriber, waiting, notified, and sent counts. Click **View** to open that product's subscribers and reports.
+  </Accordion>
+
+  <Accordion title="How do I export subscribers or notification history?">
+    - Subscribers: **Export all** or selected rows on the Subscribers page, or **Export subscribers** in [Settings — Data](/settings/settings#data)
+    - Reports: **Export CSV** on the Reports page, or **Export reports** in Settings — Data
+  </Accordion>
+
+  <Accordion title="What do Pending, Processing, Sent, and Failed mean?">
+    These are notification statuses on [Reports](/products-subscribers/reports):
+
+    - **Pending** — waiting to send
+    - **Processing** — currently sending
+    - **Sent** — delivered successfully
+    - **Failed** — did not send after retries
+  </Accordion>
+</AccordionGroup>
+
+## Plans and billing
+
+<AccordionGroup>
+  <Accordion title="What plans are available?">
+    | Plan | Price | Notifications / month |
+    | --- | --- | --- |
+    | **Free** | $0.00/mo | 100 |
+    | **Starter** | $9.99/mo | 1,000 |
+    | **Growth** | $19.99/mo | 3,000 |
+    | **Pro** | $49.99/mo | 10,000 |
+
+    See [Pricing & plans](/plans-billing/pricing-plans).
+  </Accordion>
+
+  <Accordion title="What is the Notification Wallet?">
+    After your monthly plan quota is used, paid plans can keep sending from the Notification Wallet at **$1 per 100 emails**. Wallet balance never resets on month renew. It only decreases when you send past quota.
+
+    The Free plan has **no** wallet top-up. Sending stops when the free quota is used.
+  </Accordion>
+
+  <Accordion title="When does my email quota reset?">
+    The monthly plan quota resets on the renewal date shown on the Plans page and dashboard **Plan Usage** card. Unused wallet balance carries over.
+  </Accordion>
+
+  <Accordion title="Can I upgrade or downgrade anytime?">
+    Yes. Open **Plans**, then click **Upgrade** or **Downgrade**. After the change, confirm the new quota on the current plan usage card.
+  </Accordion>
+
+  <Accordion title="Which features are not on the Free plan?">
+    Free includes Back in stock, Price drop, email notifications, and Stocksy branding on widgets. It does **not** include Coming soon waitlist, wallet top-up, or paid-plan customization extras such as removing Stocksy branding (Growth+) and a custom email domain (Pro).
+  </Accordion>
+</AccordionGroup>
+
+## Settings
+
+<AccordionGroup>
+  <Accordion title="Where do I change my logo and sender name?">
+    Go to **Settings > Branding**. Set brand name, logo (PNG or SVG, max 500 KB), accent color, sender email, reply-to email, and company website. These apply to all email templates.
+  </Accordion>
+
+  <Accordion title="Can I hide the Setup Guide on the Home page?">
+    Yes. Turn on **Hide Setup Guide** in **Settings > Preferences**, or dismiss the guide from the dashboard.
+  </Accordion>
+
+  <Accordion title="How long are notification reports kept?">
+    Set **Notification Retention** in **Settings > Preferences** (for example, 90 days). You can also auto-delete failed or sent reports older than that period.
+  </Accordion>
+
+  <Accordion title="What happens if I use Danger Zone actions?">
+    **Delete All Subscribers**, **Delete All Reports**, and **Reset All Settings** are permanent. Export subscribers or reports first if you need a backup. See [Settings — Data](/settings/settings#data).
+  </Accordion>
+</AccordionGroup>
+
+## Support
+
+<AccordionGroup>
+  <Accordion title="How do I contact support?">
+    Email [support@opticlon.com](mailto:support@opticlon.com). You can also open **Contact Support** from **Settings > About** or **Get Support** on the Home dashboard.
+  </Accordion>
+</AccordionGroup>

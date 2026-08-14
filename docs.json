@@ -57,6 +57,12 @@
         "pages": [
           "changelog"
         ]
+      },
+      {
+        "group": "Help",
+        "pages": [
+          "faq"
+        ]
       }
     ]
   },
