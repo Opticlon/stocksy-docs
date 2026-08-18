@@ -8,8 +8,8 @@
     "dark": "#15803D"
   },
   "favicon": {
-    "light": "/images/stocksylogo.png",
-    "dark": "/images/stocksylogo.png"
+    "light": "/images/logo.jpeg",
+    "dark": "/images/logo.jpeg"
   },
   "navigation": {
     "groups": [
